@@ -4,7 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>The Loop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="page page-light">
+      <div class="wrapper">
+        <header class="header">
+          <nav>
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Для мужчин</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Для женщин</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Для детей</a>
+              </li>
+            </ul>
+          </nav>
+          <img src="./img/logo.svg" alt="logo The Loop" />
+          <nav>
+            <ul class="nav">
+              <li class="nav-item">Оплата</li>
+              <li class="nav-item">Доставка</li>
+            </ul>
+          </nav>
+          <div class="cart">
+            <span class="cart-count">5</span>
+          </div>
+        </header>
+        <div class="main">
+          <div class="main-item sale">
+            <p clas="sale-description">Зимняя распродажа</p>
+            <h1 class="sale-title">Скидки до 90%</h1>
+            <a class="btn" href="#">Смотреть модели</a>
+          </div>
+          <div class="main-item box">
+            <div class="box-price">
+              <strike class="box-price-old">9 900р</strike>
+              <p class="box-price-new">1 900р</p>
+            </div>
+            <img class="box-image" src="./img/shoes.png" alt="shoes" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
