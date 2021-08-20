@@ -3,16 +3,54 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .page-light {
   background-color: #f9f6f1;
+}
+
+.page-dark {
+  background-color: #212121;
 }
 
 .wrapper {
   max-width: 1110px;
   margin: 0 auto;
-  border: 1px solid black;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.title-h2 {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: #d7b399;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 28px;
+}
+
+.btn-xs {
+  padding: 5px 28px;
+}
+
+.btn-center {
+  display: block;
+  text-align: center;
+  max-width: 165px;
+  margin: 0 auto;
+}
+
+.btn-center span {
+  margin-right: 15px;
 }
 
 .header {
@@ -25,7 +63,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 126px;
+  padding-bottom: 26px;
   padding-top: 46px;
 }
 
@@ -77,15 +115,6 @@ body {
   content: '';
 }
 
-.btn {
-  background-color: #d7b399;
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 18px 28px;
-}
-
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,5 +164,173 @@ body {
   font-weight: 700;
   color: #d84033;
   margin-top: 17px;
+}
+
+.notice {
+  color: #fff;
+  text-align: center;
+  padding: 65px 0 55px;
+}
+
+.notice-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.notice-title span {
+  font-weight: 700;
+}
+
+.notice-description {
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collection-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding: 45px 0 63px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 37px) bottom;
+  background-size: 190px 171px;
+}
+
+.collection-man {
+  background-image: url("../img/man.png");
+}
+
+.collection-woman {
+  background-image: url("../img/woman.png");
+}
+
+.collection-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.collection-title span {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.collection-description {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.product-item {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 24%;
+          flex: 0 0 24%;
+}
+
+.product-item:before, .product-item:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-item:before {
+  background-image: url("../img/item_top.svg");
+}
+
+.product-item:after {
+  background-image: url("../img/item_bottom.svg");
+}
+
+.product-title {
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.product-price {
+  color: #d7b399;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+}
+
+.footer-logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+}
+
+.footer-nav {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-list-title {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.footer-list-item {
+  margin-bottom: 10px;
+}
+
+.footer-list-link {
+  color: #cbcfd4;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-list-link img {
+  margin-right: 10px;
+  vertical-align: middle;
 }
 /*# sourceMappingURL=style.css.map */
