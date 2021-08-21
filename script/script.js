@@ -3,4 +3,5 @@ let navBar = document.querySelector(".nav-bar")
 
 toggleButton.addEventListener("click", function() {
   navBar.classList.toggle("toggle")
+  toggleButton.classList.toggle("toggle")
 })
